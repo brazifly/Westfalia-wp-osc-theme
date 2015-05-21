@@ -61,7 +61,7 @@
 
   <?php echo $oscTemplate->getContent('navigation'); ?>
   
-  <div id="bodyWrapper" class="container-fluid maxWidth">
+  <div id="bodyWrapper" class="<?php echo BOOTSTRAP_CONTAINER; ?>">
     <div class="row">
 
       <?php require(DIR_WS_INCLUDES . 'header.php'); ?>
