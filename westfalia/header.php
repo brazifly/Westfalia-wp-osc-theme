@@ -10,9 +10,6 @@
   Released under the GNU General Public License
 
 */
-  global $language, $languages_id, $oscTemplate, $currencies, $breadcrumb, $PHP_SELF, $cPath, $current_category_id, $cPath_array, $session_started;
-
-  require('/home/clusters/public_html/23resp/wordpress/includes/application_top.php');
 
   $oscTemplate->buildBlocks();
 
