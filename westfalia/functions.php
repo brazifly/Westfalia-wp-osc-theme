@@ -140,9 +140,6 @@ function westfalia_scripts_styles() {
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) )
 		wp_enqueue_script( 'comment-reply' );
 
-	// Adds JavaScript for handling the navigation menu hide-and-show behavior.
-	wp_enqueue_script( 'westfalia-navigation', get_template_directory_uri() . '/js/navigation.js', array( 'jquery' ), '20140711', true );
-
 	$font_url = westfalia_get_font_url();
 	if ( ! empty( $font_url ) )
 		wp_enqueue_style( 'westfalia-fonts', esc_url_raw( $font_url ), array(), null );

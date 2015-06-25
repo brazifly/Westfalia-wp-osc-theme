@@ -42,6 +42,8 @@
 <link href="custom.css" rel="stylesheet">
 <link href="user.css" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+<!-- font awesome -->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
 <!--[if lt IE 9]>
    <script src="ext/js/html5shiv.js"></script>
@@ -50,9 +52,6 @@
 <![endif]-->
  
 <script src="ext/jquery/jquery-1.11.1.min.js"></script>
-
-<!-- font awesome -->
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
 <?php wp_head(); ?>
 <?php echo $oscTemplate->getBlocks('header_tags'); ?>
